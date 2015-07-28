@@ -12,6 +12,10 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+- (NSArray*)namesForIceCream:(NSString*)iceCream;
+
+- (NSDictionary*)countsOfIceCream:(NSDictionary*)iceCreamByName;
+
 /**
  
  * Write your custom method names here.
