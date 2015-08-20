@@ -15,8 +15,10 @@
 /**
  
  * Write your custom method names here.
- 
  */
+
+-(NSArray *)namesForIceCream:(NSString *)iceCream;
+-(NSDictionary *)countsOfIceCream:(NSDictionary *)iceCreamByName;
 
 @end
 
