@@ -10,7 +10,12 @@
  
  * Write your custom method names here.
  
+ namesForIceCream: which takes an NSString argument iceCream and returns an NSArray object.
+ countsOfIceCream: which takes an NSDictionary argument iceCreamByName and returns an NSDictionary object.
+ 
  */
 
+- (NSArray *)namesForIceCream:(NSString *)iceCream;
+- (NSDictionary *)countsOfIceCream:(NSDictionary *)iceCreamByName;
 @end
 
